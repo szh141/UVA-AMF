@@ -16,7 +16,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #remove the "Detailed" lines from csv first
-df = pd.read_csv('p21d3.csv')
+df = pd.read_csv('p28d.csv')
 
 cols = [3,4,5,6,7,8]
 df1 = df.drop(df.columns[cols],axis=1)
