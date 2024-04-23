@@ -33,7 +33,7 @@ points_layer = viewer.add_points(
 
 
 # P28 has eps of 75 and min_samples of 15
-db = DBSCAN(eps=75, min_samples=5).fit(df1)
+db = DBSCAN(eps=75, min_samples=15).fit(df1)
 labels = db.labels_
 print(labels.max())
 
